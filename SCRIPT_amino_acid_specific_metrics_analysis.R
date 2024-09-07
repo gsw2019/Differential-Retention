@@ -127,6 +127,7 @@ plot_minAAfreq_avgAAfreq <- ggplot() +
   theme(axis.title = element_text(size = 38, face = "bold")) +
   theme(axis.text = element_text(size = 30))
 
+# size = 15 x 9 for annotations to be in correct positions
 plot_minAAfreq_avgAAfreq
 
 # weighted average amino acid frequency predicted by amino acid frequencies corresponding to descent with modification
